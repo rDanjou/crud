@@ -1,0 +1,46 @@
+.title{
+    color: blue;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  }
+  .subtitle {
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .formulaire {
+    margin-top: 30px;
+  }
+  
+  .formulaire > div{
+      margin-bottom: 20px;
+      width: 600px;
+      display: flex;
+  }
+  
+  .formulaire > div > span{
+    width: 150px;
+  }
+  
+  .formButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px)
+  {
+      .title{
+        color: green;
+      }
+      .formulaire > div{
+        display: flex;
+        flex-direction: column;
+      }
+      .exemple{
+        margin-top: 66px;
+      }
+      h5{
+        padding: 1em;
+      }
+  }
